@@ -6,9 +6,7 @@ public class Soal2 {
     public static void main(String[] args) {
       double  a = 100, b = 25, hasil = 0;
     
-    Scanner input = new Scanner(System.in);
-        
-    
+    Scanner input = new Scanner(System.in);  
     
         System.out.println("_____________________________________________________________");    
         System.out.println("Berikut ini Menampilkan Hasil Program Penjumlahan dan Pengurangan ");
@@ -21,8 +19,7 @@ public class Soal2 {
 
         System.out.println("_____________________________________________________________");
         System.out.print ("masukkan pilihan anda :  ");
-        String pilihan = input.nextLine();
-        
+        String pilihan = input.nextLine();     
         
 switch (pilihan) {
 case "1" -> {
